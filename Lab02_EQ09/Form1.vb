@@ -7,13 +7,15 @@
         End
     End Sub
 
-    Private Sub btnApp_Click(sender As Object, e As EventArgs) Handles btnApp.Click
+
+
+    Private Sub ListBoxToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListBoxToolStripMenuItem.Click
         Form2.Show()
-        Me.Hide()
+
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub FormGridViewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormGridViewToolStripMenuItem.Click
         Form3.Show()
-        Me.Hide()
+
     End Sub
 End Class

@@ -117,4 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Rtb_presentacion.Text" xml:space="preserve">
+    <value>Desarrollo de Software VIII
+Grupo: 1LS132
+Fecha de Entrega: 11 de noviembre de 2020 
+Equipo: 9
+Integrantes:
+
+GRUPO 1LS132 
+
+MARIAJOSÉ OXFORD 20-70-4283 
+
+KINDELÁN GONZÁLEZ 8-992-1956 
+
+CRISTIAN DELGADILLO 20-62-4442 
+
+DIEGO SASTOQUE 20-14-3061 </value>
+  </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

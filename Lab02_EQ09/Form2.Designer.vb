@@ -50,7 +50,7 @@ Partial Class Form2
         'txtNombre
         '
         Me.txtNombre.Location = New System.Drawing.Point(150, 41)
-        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(76, 20)
         Me.txtNombre.TabIndex = 1
@@ -89,7 +89,7 @@ Partial Class Form2
         '
         Me.cbEstado.AutoSize = True
         Me.cbEstado.Location = New System.Drawing.Point(404, 144)
-        Me.cbEstado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbEstado.Margin = New System.Windows.Forms.Padding(2)
         Me.cbEstado.Name = "cbEstado"
         Me.cbEstado.Size = New System.Drawing.Size(62, 17)
         Me.cbEstado.TabIndex = 6
@@ -110,9 +110,9 @@ Partial Class Form2
         Me.gbDatos.Controls.Add(Me.ltbEdad)
         Me.gbDatos.Controls.Add(Me.ltbNombre)
         Me.gbDatos.Location = New System.Drawing.Point(42, 183)
-        Me.gbDatos.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.gbDatos.Margin = New System.Windows.Forms.Padding(2)
         Me.gbDatos.Name = "gbDatos"
-        Me.gbDatos.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.gbDatos.Padding = New System.Windows.Forms.Padding(2)
         Me.gbDatos.Size = New System.Drawing.Size(620, 229)
         Me.gbDatos.TabIndex = 7
         Me.gbDatos.TabStop = False
@@ -121,7 +121,7 @@ Partial Class Form2
         'txtCantidad
         '
         Me.txtCantidad.Location = New System.Drawing.Point(296, 200)
-        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCantidad.Name = "txtCantidad"
         Me.txtCantidad.Size = New System.Drawing.Size(76, 20)
         Me.txtCantidad.TabIndex = 9
@@ -180,7 +180,7 @@ Partial Class Form2
         '
         Me.ltbEstado.FormattingEnabled = True
         Me.ltbEstado.Location = New System.Drawing.Point(482, 57)
-        Me.ltbEstado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ltbEstado.Margin = New System.Windows.Forms.Padding(2)
         Me.ltbEstado.Name = "ltbEstado"
         Me.ltbEstado.Size = New System.Drawing.Size(120, 134)
         Me.ltbEstado.TabIndex = 3
@@ -189,7 +189,7 @@ Partial Class Form2
         '
         Me.ltbTelefono.FormattingEnabled = True
         Me.ltbTelefono.Location = New System.Drawing.Point(340, 57)
-        Me.ltbTelefono.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ltbTelefono.Margin = New System.Windows.Forms.Padding(2)
         Me.ltbTelefono.Name = "ltbTelefono"
         Me.ltbTelefono.Size = New System.Drawing.Size(128, 134)
         Me.ltbTelefono.TabIndex = 2
@@ -198,7 +198,7 @@ Partial Class Form2
         '
         Me.ltbEdad.FormattingEnabled = True
         Me.ltbEdad.Location = New System.Drawing.Point(190, 57)
-        Me.ltbEdad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ltbEdad.Margin = New System.Windows.Forms.Padding(2)
         Me.ltbEdad.Name = "ltbEdad"
         Me.ltbEdad.Size = New System.Drawing.Size(137, 134)
         Me.ltbEdad.TabIndex = 1
@@ -207,7 +207,7 @@ Partial Class Form2
         '
         Me.ltbNombre.FormattingEnabled = True
         Me.ltbNombre.Location = New System.Drawing.Point(17, 57)
-        Me.ltbNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ltbNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.ltbNombre.Name = "ltbNombre"
         Me.ltbNombre.Size = New System.Drawing.Size(157, 134)
         Me.ltbNombre.TabIndex = 0
@@ -215,7 +215,7 @@ Partial Class Form2
         'txtEdad
         '
         Me.txtEdad.Location = New System.Drawing.Point(150, 89)
-        Me.txtEdad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtEdad.Margin = New System.Windows.Forms.Padding(2)
         Me.txtEdad.Name = "txtEdad"
         Me.txtEdad.Size = New System.Drawing.Size(76, 20)
         Me.txtEdad.TabIndex = 8
@@ -223,7 +223,7 @@ Partial Class Form2
         'txtTelefono
         '
         Me.txtTelefono.Location = New System.Drawing.Point(150, 140)
-        Me.txtTelefono.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTelefono.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTelefono.Name = "txtTelefono"
         Me.txtTelefono.Size = New System.Drawing.Size(76, 20)
         Me.txtTelefono.TabIndex = 9
@@ -231,7 +231,7 @@ Partial Class Form2
         'btnAgregar
         '
         Me.btnAgregar.Location = New System.Drawing.Point(550, 36)
-        Me.btnAgregar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnAgregar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(56, 19)
         Me.btnAgregar.TabIndex = 10
@@ -241,7 +241,7 @@ Partial Class Form2
         'btnEliminar
         '
         Me.btnEliminar.Location = New System.Drawing.Point(550, 72)
-        Me.btnEliminar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnEliminar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.Size = New System.Drawing.Size(56, 19)
         Me.btnEliminar.TabIndex = 11
@@ -251,7 +251,7 @@ Partial Class Form2
         'btnLimpiar
         '
         Me.btnLimpiar.Location = New System.Drawing.Point(550, 110)
-        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(56, 19)
         Me.btnLimpiar.TabIndex = 12
@@ -261,7 +261,7 @@ Partial Class Form2
         'btnSalir
         '
         Me.btnSalir.Location = New System.Drawing.Point(550, 144)
-        Me.btnSalir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnSalir.Margin = New System.Windows.Forms.Padding(2)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(56, 19)
         Me.btnSalir.TabIndex = 13
@@ -272,6 +272,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.ClientSize = New System.Drawing.Size(712, 434)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnLimpiar)
@@ -285,7 +286,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtNombre)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.gbDatos.ResumeLayout(False)
